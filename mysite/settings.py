@@ -37,8 +37,15 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'blogs.apps.BlogsConfig',
+    # 'kitchens.apps.KitchensConfig',
     'users.apps.UsersConfig',
+    'candidates.apps.CandidatesConfig',
+    # 'employees.apps.EmployeesConfig',
+    # 'messages.apps.MessagesConfig',
+    'conferences.apps.ConferencesConfig',
+    # 'cart,apps.CartConfig',
+    'blogs.apps.BlogsConfig',
+    # 'employees.apps.EmployeesConfig',
     'crispy_forms',
     # 'storages',
 ]
@@ -138,7 +145,11 @@ MEDIA_URL = '/media/'
 
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
-LOGIN_REDIRECT_URL = 'blogs-home'
+# this is the name given to the main home page..for kitchen app it would be 'kitchens-home'
+# do this to change the default in django
+LOGIN_REDIRECT_URL = 'candidate-home'
+# LOGIN_REDIRECT_URL = 'mysite-home'
+
 LOGIN_URL = 'login'
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

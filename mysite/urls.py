@@ -11,11 +11,13 @@ Class-based views
     2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
 Including another URLconf
     1. Import the include() function: from django.urls import include, path
-    2. Add a URL to urlpatterns:  path('blogs/', include('blogs.urls'))
+    2. Add a URL to urlpatterns:  path('kitchens/', include('kitchens.urls'))
 """
 
 
 from django.contrib import admin
+
+# this is the login default views for django login and logout views
 from django.contrib.auth import views as auth_views
 from django.urls import path, include
 
@@ -29,9 +31,13 @@ from users import views as user_views
  #function view import statement
 urlpatterns = [
     path('admin/', admin.site.urls),
+
+    # path to register as a class based view
     path('register/', user_views.register, name='register'),
     path('profile/', user_views.profile, name='profile'),
+    # path to login as a class based view and you must include the template name in class based biew
     path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
+    # path to logout as a class based view and you must include the template name
     path('logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
     path('password-reset/',
          auth_views.PasswordResetView.as_view(
@@ -53,31 +59,23 @@ urlpatterns = [
              template_name='users/password_reset_complete.html'
          ),
          name='password_reset_complete'),
-    path('', include('blogs.urls')),
+    path('', include('candidates.urls')),
 
 
-    path('', include('blogs.urls')),
+    path('', include('candidates.urls')),
+    path('blogs/', include('blogs.urls')),
+    path('conferences/', include('conferences.urls')),
+
 ]
 
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
-    # path('blogs/', include('blogs.urls')),
-    # path('', include('blogs.urls')),
+    # path('kitchens/', include('kitchens.urls')),
+    # path('', include('kitchens.urls')),
 
-    # path('/', include('blogs.urls')),
-    # path('/', include("blogs.urls"))
-
-
-
-
-
-
-
-
-
-
-
+    # path('/', include('kitchens.urls')),
+    # path('/', include("kitchens.urls"))
 
 # the other
 
@@ -85,7 +83,7 @@ if settings.DEBUG:
 #
 #  urlpatterns = [
 #      url(r'^admin/', admin.site.urls),
-#      url(r'', include('blogs.urls')),
+#      url(r'', include('kitchens.urls')),
 # ]
 
 

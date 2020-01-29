@@ -11,7 +11,7 @@
 #     2. Add a URL to urlpatterns:  path('', Home.as_view(), name='home')
 # Including another URLconf
 #     1. Import the include() function: from django.urls import include, path
-#     2. Add a URL to urlpatterns:  path('blogs/', include('blogs.urls'))
+#     2. Add a URL to urlpatterns:  path('kitchens/', include('kitchens.urls'))
 # """
 #
 #
@@ -30,13 +30,13 @@
 #     path('profile/', user_views.profile, name='profile'),
 #     path('login/', auth_views.LoginView.as_view(template_name='users/login.html'), name='login'),
 #     path('logout/', auth_views.LogoutView.as_view(template_name='users/logout.html'), name='logout'),
-#     path('', include('blogs.urls')),
+#     path('', include('kitchens.urls')),
 #     # Will need to change static media when hookedup to server
 #     static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-#     # path('blogs/', include('blogs.urls')),
-#     # path('about/',include('blogs.urls')),
-#     # path('/', include('blogs.urls')),
-#     # path('/', include("blogs.urls"))
+#     # path('kitchens/', include('kitchens.urls')),
+#     # path('about/',include('kitchens.urls')),
+#     # path('/', include('kitchens.urls')),
+#     # path('/', include("kitchens.urls"))
 #  ]
 #
 # #
@@ -56,7 +56,7 @@
 # #
 # #  urlpatterns = [
 # #      url(r'^admin/', admin.site.urls),
-# #      url(r'', include('blogs.urls')),
+# #      url(r'', include('kitchens.urls')),
 # # ]
 #
 #

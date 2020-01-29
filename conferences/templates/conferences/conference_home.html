@@ -1,0 +1,17 @@
+{% extends "conferences/base.html" %}
+{% block content %}
+    {% for conference in conferences %}
+        <article class="media content-section">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="{% url 'conference-detail' conference.id %}"> {{ conference.author }}</a>
+              <small class="text-muted">{{ conference.created_at }}</small>
+            </div>
+            <h2><a class="article-title" href="#">{{ conference.title}}</a></h2>
+            <p class="article-content">{{ conference.content }}</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}
+
+

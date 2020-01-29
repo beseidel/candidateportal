@@ -1,0 +1,15 @@
+{% extends "candidates/base.html" %}
+{% block content %}
+ <div class="candidate-body">
+
+     {% for candidate in candidates %}
+                <div class="OneKit">
+                    <a class="mr-2" href="{% url 'candidate-detail' candidate.id %}"> {{ candidate }}</a>
+                    <small class="text-muted">{{ candidate.created_at }}</small>
+                    <h2><a class="candidate-title" href="#">{{ candidate.first_name }}</a></h2>
+                    <p class="candidate-content">{{ candidate.last_name }}</p>
+                </div>
+         {% endfor %}
+{% endblock content %}
+
+ </div>

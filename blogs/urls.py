@@ -68,7 +68,6 @@ urlpatterns = [
     # Expects post_form.html template. it does not expect post_create like you might think django uses post_form instead
     path('post/new/', PostCreateView.as_view(), name='post-create'),
 
-
    # also uses post_form.html template and shares it with the above post/new
     path('post/<int:pk>/update/', PostUpdateView.as_view(), name='post-update'),
 
