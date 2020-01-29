@@ -3,44 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7ad86dc2-7b1b-4fb3-a264-4c82f96699e9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/awscli-bundle.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/awscli-bundle/packages/botocore-1.13.28.tar.gz" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/migrations/0002_post.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/migrations/0003_auto_20191121_0330.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/migrations/0004_person.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/migrations/0005_auto_20191122_0315.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/static/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/templates/blogs/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/templates/blogs/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/templates/blogs/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/templates/blogs/post_confirm_delete.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/templates/blogs/post_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/templates/blogs/post_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/templates/blogs/user_posts.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/blogs/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/profile_pics/59337900135__A0EE1F72-AE75-4DCF-90E8-5F8B68314242.JPG" beforeDir="false" afterPath="$PROJECT_DIR$/media/profile_pics/59337900135__A0EE1F72-AE75-4DCF-90E8-5F8B68314242.JPG" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/logout.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/logout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/password_reset.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/password_reset.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/password_reset_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/password_reset_complete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/password_reset_confirm.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/password_reset_confirm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/password_reset_done.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/password_reset_done.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/users/templates/users/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/users/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
